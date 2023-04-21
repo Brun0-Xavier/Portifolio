@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag Interativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="bloco">
+        <div id="res">
+            <div>
+                <h3>Digite seu nome:</h3>
+                <input id="txt" type="text">
+                
+                <input id="btn" type="button" value="Continuar" onclick="verificar()">
+            </div>
+            <span id="imagem"></span>
+        </div>
+    </section>
+
+    <section class="bloco">
+        <div id="resp2">
+            <h2 id="SegTitulo">Preencha os dados para prosseguir</h2>
+            <div>
+                <p>Seu nome</p>
+                <input type="text" name="" id="text-nome">
+                <p>Ano de nascimento</p>
+                <input type="number" name="" id="idade"><br>
+                <input id="btn2" type="button" value="Continuar" onclick="verificar2()">
+            </div>
+            <span id="imagem2"></span>
+        </div>
+    </section>
+
+    <section class="bloco">
+        <div id="resp3">
+            <h1>JavaScript Modal</h1>
+    <button id="open-modal">Abrir</button>
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <h2>Este é o modal</h2>
+            <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias pariatur nesciunt maxime enim ex, dolore corporis est aliquam quisquam, incidunt fuga id harum quae vel quaerat ab cum, maiores ad!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias pariatur nesciunt maxime enim ex, dolore corporis est aliquam quisquam, incidunt fuga id harum quae vel quaerat ab cum, maiores ad!</p>
+            <img src="relampago marquinhos.jpg" alt="relampago marquinhos capotando">
+        </div>
+
+    </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

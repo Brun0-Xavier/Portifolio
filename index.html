@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="bt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Xavier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1><a href="#bloco1">Inicio</a></h1>
+        <nav id="nav">
+            <button id="btn-mobile" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#bloco2">Sobre</a></li>
+                <li><a href="#bloco3">Serviços</a></li>
+                <li><a href="#bloco4">Habilidades</a></li>
+                <li><a href="#bloco5">Projetos</a></li>
+                <li id="Contato"><a href="https://wa.me/5524993048626" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bloco" id="bloco1"><!--inicio-->
+        <div class="overflow"></div>
+            <div id="txt-conteudo1">
+                <h1>Olá, sou Bruno Xavier</h1>
+                <h3>Desenvolvedor front-end e técnico de informática</h3>
+            </div>
+            <div id="redes">
+                <a href="https://www.linkedin.com/in/bruno-xavier-066324219/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Brun0-Xavier" target="_blank">GitHub</a>
+            </div>
+            <a href="#bloco2"><div id="mais-sobre">
+                Mais sobre mim
+            </div></a>
+    </section>
+
+    <section class="bloco" id="bloco2"><!--Sobre-->
+        <h1>Sobre mim</h1>
+        <div id="conteudo2">
+            <img id="meu-rosto" src="imgs/meu rosto.jpg" alt="">
+            <div id="txt-conteudo2">
+                <h2>Bruno Xavier</h2>
+                <p>Me chamo Bruno Xavier, tenho 21 anos e sou apaixonado por tecnologia e saber 
+                    como as coisas funcionam, em geral. Possuo curso de Web Design, dois cursos 
+                    profissionalizantes de Mecânica e Elétrica Industrial, e Técnico de Montagem 
+                    e Manutenção de micro. Agora migrando para área do desenvolvimento web.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bloco" id="bloco3"><!--serviços-->
+        <h3>Serviços</h3>
+        <h1>O que eu faço</h1>
+        <div id="conteudo3">
+            <div class="bloquinho">
+                <img src="imgs/programacao.png" alt="">
+                <h3>DEV <br>FRONT END</h3>
+            </div>
+
+            <div class="bloquinho">
+                <img src="imgs/chave.png" alt="">
+                <h3>MANUTENÇÃO <br> PCs</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="bloco" id="bloco4"><!--Habilidades-->
+        <h3>Habilidades</h3>
+        <h1>Quanto sei de front-end</h1>
+        <div id="conteudo4">
+            <div id="skils">
+                <h2>HTML</h2>
+                <div class="barra"><div id="porc1"></div></div><p>100%</p>
+                <h2>CSS</h2>
+                <div class="barra"><div id="porc2"></div></div><p>100%</p>
+                <h2>JAVASCRIPT</h2>
+                <div class="barra"><div id="porc3"></div></div><p>50%</p>
+            </div>
+
+            <div id="slide">
+                    <!--Começa Slide-->
+                <div class="slider">
+                    <div class="slides">
+                        <!--radio butons-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <!--radio butons-->
+                        <!--slide imagens-->
+                        <div class="slide first">
+                            <img src="imgs/HTML.jpg" alt="Imagem 1">
+                        </div>
+                        <div class="slide">
+                            <img src="imgs/CSS.jpg" alt="Imagem 2">
+                        </div>
+                        <div class="slide">
+                            <img src="imgs/JAVASCRIPT.jpg" alt="Imagem 3">
+                        </div>
+                        <!--slide imagens-->
+                        <!--navegação automatica-->
+                        <div class="nav-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        <!--navegação automatica-->
+                    </div>
+                    <!--navegação manual-->
+                    <div class="nav-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                    <!--navegação manual-->
+                </div>
+        <!--Acaba Slide-->
+                </div>
+    </div>
+    </section>
+
+    <section class="bloco" id="bloco5"> <!--Projetos-->
+        <h3>Portifolio</h3>
+        <h1>Meus projetos</h1>
+        <div id="conteudo5">
+            <a href="https://devmacron.000webhostapp.com" target="_blank"><img src="imgs/DEVMACRON.png" alt="">
+                <p>Landing pag DEVMACRON</p></a>
+            <a href="https://turko-tatar-accompl.000webhostapp.com" target="_blank"><img src="imgs/BRUNOTI.png" alt="">
+                <p>Landing pag Pessoal</p></a>
+            <a href="javascript/index.html" target="_blank"><img src="imgs/JAVASCRIPT.png" alt="">
+                <p>Utilidades Javascript</p></a>
+        </div>
+        <a id="mais-projetos" href="" target="_blank">Mais projetos <br>em breve</a>
+    </section>
+
+    <section class="bloco" id="bloco6"><!--contato-->
+        <h3>Contato</h3>
+        <h1>Me envie uma mensagem</h1>
+        <p>Possui alguma ideia no papel e quer criar em forma de site, ou 
+            está pensando em começar um novo negócio? Me envie uma 
+            mensagem para podermos conversar melhor</p>
+        <div id="contato-email">
+
+            <form action="https://formsubmit.co/xavierbruno83@gmail.com" method="POST">
+                <h2>Contato</h2>
+                <input class="Enome" type="text" name="name" placeholder="Digite seu nome" required>
+                <input class="Enome" type="email" name="email" placeholder="Digite seu email" required>
+
+                <textarea name="message" id="mensagem" cols="30" rows="10" 
+                    placeholder="Digite sua mensagem" required></textarea>
+
+                <button id="enviar" type="submit">Enviar e-mail</button>
+
+                <input type="hidden" name="_subject" value="Novo Contato">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+
+                <div id="whatsapp">
+                    <a href="https://wa.me/5524993048626" target="_blank">WhatsApp</a>
+                </div>
+
+           </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div id="rodape">
+            <h2>Criado por: Bruno Xavier</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/bruno-xavier-066324219/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Brun0-Xavier" target="_blank">GitHub</a></li>
+                <li><a href="" target="_blank">Instagram</a></li>
+            </ul>
+    </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
